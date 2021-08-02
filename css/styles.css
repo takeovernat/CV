@@ -1,5 +1,7 @@
 body{
     background-color: lightcyan;
+    background-image: url("/CV/back.jpg");
+    background-attachment: local;
 }
 hr{
     border-style: none;
@@ -13,6 +15,10 @@ hr{
 }
 img{
     height: 200px;
+}
+img:hover{
+    height: 300px;
+    background-color: lightcyan;
 }
 h1{
     color: #FFAA4C;
